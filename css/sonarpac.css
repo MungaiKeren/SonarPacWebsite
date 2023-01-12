@@ -571,16 +571,17 @@ strong {
 }
 
 #hero-slide .carousel-caption {
-  background: var(--white-color);
-  clip-path: polygon(100% 100%, 100% 150px, 0 100%);
-  color: var(--secondary-color);
-  top: 1px;
-  bottom: -1px;
-  right: 0;
-  left: auto;
-  text-align: right;
+  background: var(--dark-color);
+  opacity: 0.8;
+  /* clip-path: polygon(100% 100%, 100% 150px, 0 100%); */
+  color: var(--white-color);
+  /* top: 1px; */
+  /* bottom: -1px; */
+  /* right: 0; */
+  /* left: auto; */
+  text-align: center;
   min-width: 680px;
-  min-height: 680px;
+  /* min-height: 680px; */
   padding: 100px 100px 50px 100px;
 }
 
@@ -633,21 +634,23 @@ strong {
   transition: all 0.5s ease;
   min-height: 256px;
   padding: 15px;
+  border-radius: var(--border-radius-medium);
 }
 
-.featured-block:hover {
+/* .featured-block:hover {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-}
+} */
 
 .featured-block:hover .featured-block-image {
-  transform: scale(0.75);
+  transform: scale(1);
 }
 
 .featured-block-image {
   display: block;
   margin: auto;
+  border-radius: var(--border-radius-medium);
   transition: all 0.5s;
 }
 
