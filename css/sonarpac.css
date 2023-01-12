@@ -1590,10 +1590,11 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
-    clip-path: polygon(100% 100%, 100% 100px, 0 100%);
-    padding-right: 50px;
-    min-width: inherit;
-    min-height: inherit;
+    /* clip-path: polygon(100% 100%, 100% 100px, 0 100%); */
+    /* padding-right: 50px; */
+    padding: 100px 400px 100px 0;
+    /* min-width: inherit;
+    min-height: inherit; */
   }
 }
 
@@ -1619,8 +1620,8 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
-    min-width: inherit;
-    padding-bottom: 30px;
+    /* min-width: inherit;
+    padding-bottom: 30px; */
   }
 
   .carousel-control-next-icon, 
