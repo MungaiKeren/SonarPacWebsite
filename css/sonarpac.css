@@ -302,6 +302,12 @@ strong {
   height: 65px;
   object-fit: cover;
 }
+#arrow{
+  transform: rotate(102deg);
+}
+#navigator{
+  margin-left: 10em;
+}
 
 
 /*---------------------------------------
