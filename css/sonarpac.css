@@ -1598,7 +1598,7 @@ blockquote::before {
   #hero-slide .carousel-caption {
     /* clip-path: polygon(100% 100%, 100% 100px, 0 100%); */
     /* padding-right: 50px; */
-    padding: 50px 311px 50px 0;
+    padding: 20px 311px 20px 0;
     margin-left: -58px;
     /* min-width: inherit;
     min-height: inherit; */
