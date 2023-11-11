@@ -658,6 +658,8 @@ strong {
   margin: auto;
   border-radius: var(--border-radius-medium);
   transition: all 0.5s;
+  object-position: center;
+  object-fit: cover;
 }
 
 .featured-block:hover .featured-block-text {
